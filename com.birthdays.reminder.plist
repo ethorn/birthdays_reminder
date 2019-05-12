@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>EnvironmentVariables</key>
+    <dict>
+      <key>PATH</key>
+      <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:</string>
+    </dict>
+    <key>Label</key>
+    <string>com.startup</string>
+    <key>Program</key>
+    <string>/Users/mrerico/Desktop/birthdays_reminder_app/shell_launch.sh</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <false/>
+    <key>StartInterval</key>
+    <integer>21600</integer>
+    <key>StandardOutPath</key>
+    <string>/Users/mrerico/Desktop/startup.stdout</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/mrerico/Desktop/startup.stderr</string>
+    <key>UserName</key>
+    <string>admin</string>
+    <key>GroupName</key>
+    <string>admin</string>
+    <key>InitGroups</key>
+    <true/>
+  </dict>
+</plist>
