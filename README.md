@@ -12,6 +12,10 @@ Installation:
 3) Copy com.birthdays.reminder.plist to ~/Library/LaunchAgents
 4) Make sure com.birthdays.reminder.plist is executable. Write this in terminal: sudo chmod +x ~/Library/LaunchAgents/com.birthdays.reminder.plist
 5) Make sure shell_launch.sh is executable. Write this in terminal: sudo chmod +x /PATH/TO/BIRTHDAY_APP_FOLDER/shell_launch.sh
+6) Add plist to run when you login to your mac. Write this in terminal: sudo launchctl load -w ~/Library/LaunchAgents/com.birthdays.reminder.plist
+
+To remove this app from running when you login:
+1) sudo launchctl unload -w ~/Library/LaunchAgents/com.birthdays.reminder.plist
 
 Usage:
 * Add birthdays to birthdays_library.txt in the format DD-MM
