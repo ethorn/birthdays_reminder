@@ -1,19 +1,9 @@
-# App for reminding me of birthdays
-
-# Launching on login:
-# 1) create shell_launch.sh
-# 2) create com.startup.plist
-# 4) put com.birthdays.reminder.plist in ~/Library/LaunchAgents/
-# 5) Add the plist to launch on load
-#    : sudo launchctl load -w ~/Library/LaunchAgents/com.birthdays.reminder.plist
-# To remove: sudo launchctl unload -w ~/Library/LaunchAgents/com.birthdays.reminder.plist
-
-
 import os
 import time
 
 
-file_path = os.environ['HOME'] + '/Desktop/birthdays_reminder_app/birthdays_library.txt'
+file_path = os.environ['HOME'] + \
+            '/Desktop/birthdays_reminder_app/birthdays_library.txt'
 
 
 def notify(title, text):
