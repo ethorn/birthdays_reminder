@@ -29,7 +29,7 @@ def check_birthday():
     lookup_file = open(file_path, 'r')
     today = time.strftime('%d-%m')
     # birth_day_flag = 0
-
+    
     for entry in lookup_file:
         if today in entry:
             line = entry.split(' ')

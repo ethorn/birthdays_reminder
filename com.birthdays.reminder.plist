@@ -16,16 +16,11 @@
     <key>KeepAlive</key>
     <false/>
     <key>StartInterval</key>
-    <integer>21600</integer>
+    <integer>14400</integer>
     <key>StandardOutPath</key>
-    <string>/Users/mrerico/Desktop/startup.stdout</string>
+    <string>/Users/mrerico/Desktop/birthdays_reminder_app/startup.stdout</string>
     <key>StandardErrorPath</key>
-    <string>/Users/mrerico/Desktop/startup.stderr</string>
-    <key>UserName</key>
-    <string>admin</string>
-    <key>GroupName</key>
-    <string>admin</string>
-    <key>InitGroups</key>
+    <string>/Users/mrerico/Desktop/birthdays_reminder_app/startup.stderr</string>
     <true/>
   </dict>
 </plist>
