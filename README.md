@@ -1,6 +1,8 @@
 # birthdays_reminder
 Small python app for reminding you of birthdays. Works on Mac OS.
 
+This is just for fun and I don't think anyone will ever view this readme or try to use this program. If, however, you have gone down a rabbit hole and ended up here, this is how you use this "app":
+
 What it does:
 * When you login on your computer, the program checks birthdays_library.txt to see if there are any birthdays today. If it is, you get a notification.
 
